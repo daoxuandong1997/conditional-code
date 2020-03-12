@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>employee</title>
 </head>
 <body>
-
+    <script>
+        let login = prompt("nhap thong tin: " );
+        let message = (login == 'Employee') ?
+            'Hello':
+            (Login == 'Director')?
+                'Greatings':
+                (Login == '')?
+                    'No login':
+                    '';
+        alert(message)
+    </script>
 </body>
 </html>
